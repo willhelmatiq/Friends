@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="anchorPane" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="spase.harbour.friends.AddPersonController">
+   <children>
+      <Text layoutX="40.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name" />
+      <Text layoutX="32.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="surname" />
+      <Text layoutX="40.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email" />
+      <Text layoutX="15.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="phone number" />
+      <Text layoutX="34.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="address" />
+      <Text layoutX="42.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="birth" />
+      <TextField fx:id="name" layoutX="97.0" layoutY="14.0" />
+      <TextField fx:id="surname" layoutX="97.0" layoutY="54.0" />
+      <TextField fx:id="email" layoutX="97.0" layoutY="88.0" />
+      <TextField fx:id="phoneNubmer" layoutX="97.0" layoutY="123.0" />
+      <TextField fx:id="address" layoutX="97.0" layoutY="158.0" />
+      <TextField fx:id="birth" layoutX="97.0" layoutY="196.0" />
+      <Button layoutX="131.0" layoutY="243.0" mnemonicParsing="false" onAction="#addPerson" text="Add" />
+   </children>
+</AnchorPane>
